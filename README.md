@@ -17,7 +17,7 @@ The dataset folder contains data for three languages English (Legal domain and S
  Note that the acronyms in the `train.json`, `dev.json` and `test.json` (which will be provided later) are all disjoint. 
   
 # Code
-In order to familiarize the participants with this task, we provide a rule-based baseline in `code` directory. This baseline computes the similarityy of the candidate long-forms with the sample text, using METEOR score, and it choose the long-form with the highest similarity score as the final prediction. To run this baseline, run the following command:
+In order to familiarize the participants with this task, we provide a rule-based baseline in `code` directory. This baseline computes the similarityy of the candidate long-forms with the sample text (in terms of number of overlapping words) and it choose the long-form with the highest similarity score as the final prediction. To run this baseline, run the following command:
 
 `python code/baseline.py -input <path/to/input.json> -diction <path/to/diction.json> -output <path/to/output.json>`
 
