@@ -41,8 +41,5 @@ In order to participate, please first fill out this form to register for the sha
 - 
 For more information, see [SDU@AAAI-22](https://sites.google.com/view/sdu-aaai22/shared-task).
 
-# Citation
-If you use the dataset, baseline or evaluation script released in this repo, please cite our paper:
-
 # Licenses
 The dataset provided for this shared task is licensed under [CC BY-NC-SA 4.0 international license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), and the evaluation script and the baseline are licensed under MIT license.
